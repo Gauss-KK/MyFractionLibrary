@@ -1,4 +1,8 @@
-# MyFractionLibrary
+# knumerics
+
+## MyFractionLibrary
+
+;;;C#
     MyFraction c3 = new MyFraction(3E200);
     MyFraction c2 = new MyFraction(2E200);
     MyFraction c1 = new MyFraction(1E200);
@@ -14,7 +18,10 @@
     Console.WriteLine("d2 = {0}", d2);
     Console.WriteLine("d1 = {0}", d1);
     Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);
-Copare To:
+'''
+
+## Copare to usual coding:
+'''C#
     double c3 = 3E200;
     double c2 = 2E200;
     double c1 = 1E200;
@@ -30,3 +37,4 @@ Copare To:
     Console.WriteLine("d2 = {0}", d2);
     Console.WriteLine("d1 = {0}", d1);
     Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1)
+'''
