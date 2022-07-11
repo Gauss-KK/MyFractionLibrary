@@ -1,6 +1,6 @@
 # knumerics
 
-## C# Coding using MyFraction
+## C# xoding using MyFraction
 
 ```C#
     MyFraction c3 = new MyFraction(3E200);
