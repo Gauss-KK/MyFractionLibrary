@@ -9,7 +9,7 @@
     Console.WriteLine("c3 = {0}", c3);
     Console.WriteLine("c2 = {0}", c2);
     Console.WriteLine("c1 = {0}", c1);
-    Console.WriteLine("c3 - c2 - c1 = {0}", c3 - c2 - c1);
+    Console.WriteLine("c3 - c2 - c1 = {0}", c3 - c2 - c1);     // --> 0
 
     MyFraction d3 = new MyFraction(0.3E-100);
     MyFraction d2 = new MyFraction(0.2E-100);
@@ -17,7 +17,7 @@
     Console.WriteLine("d3 = {0}", d3);
     Console.WriteLine("d2 = {0}", d2);
     Console.WriteLine("d1 = {0}", d1);
-    Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);
+    Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);    // --> 0
 ```
 
 ## Conpare to usual C# coding:
@@ -28,7 +28,7 @@
     Console.WriteLine("c3 = {0}", c3);
     Console.WriteLine("c2 = {0}", c2);
     Console.WriteLine("c1 = {0}", c1);
-    Console.WriteLine("c3 - c2 - c1 = {0}", c3 - c2 - c1);
+    Console.WriteLine("c3 - c2 - c1 = {0}", c3 - c2 - c1);    // --> Not 0
 
     double d3 = 0.3E-100;
     double d2 = 0.2E-100;
@@ -36,5 +36,5 @@
     Console.WriteLine("d3 = {0}", d3);
     Console.WriteLine("d2 = {0}", d2);
     Console.WriteLine("d1 = {0}", d1);
-    Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1)
+    Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);     // --> Not 0
 ```
