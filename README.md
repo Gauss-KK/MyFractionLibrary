@@ -1,6 +1,6 @@
 # knumerics
 
-## MyFractionLibrary
+## C# Coding using MyFraction
 
 ```C#
     MyFraction c3 = new MyFraction(3E200);
@@ -20,7 +20,7 @@
     Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);
 ```
 
-## Copare to usual coding:
+## Conpare to usual C# coding:
 ```C#
     double c3 = 3E200;
     double c2 = 2E200;
