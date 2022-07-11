@@ -23,7 +23,7 @@ using knumerics;
     Console.WriteLine("d3 - d2 - d1 = {0}", d3 - d2 - d1);    // --> 0
 ```
 
-## Conpare to usual C# coding:
+## Compare to usual C# coding:
 ```C#
     double c3 = 3E200;
     double c2 = 2E200;
