@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knumerics", "MyFractionLibrary\knumerics.csproj", "{A0F9D1B3-0C90-4D01-93C5-8944545D0EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMyFraction", "UnitTestMyFraction\UnitTestMyFraction.csproj", "{257BE064-FDC6-4175-A9A3-51960E61C307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFractionConsoleApp", "TestFractionConsoleApp\TestFractionConsoleApp.csproj", "{0C84FE12-A537-439D-A9F3-6E29E8AA2EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F9D1B3-0C90-4D01-93C5-8944545D0EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F9D1B3-0C90-4D01-93C5-8944545D0EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F9D1B3-0C90-4D01-93C5-8944545D0EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F9D1B3-0C90-4D01-93C5-8944545D0EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257BE064-FDC6-4175-A9A3-51960E61C307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257BE064-FDC6-4175-A9A3-51960E61C307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257BE064-FDC6-4175-A9A3-51960E61C307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257BE064-FDC6-4175-A9A3-51960E61C307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C84FE12-A537-439D-A9F3-6E29E8AA2EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C84FE12-A537-439D-A9F3-6E29E8AA2EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C84FE12-A537-439D-A9F3-6E29E8AA2EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C84FE12-A537-439D-A9F3-6E29E8AA2EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12EC0CFF-2EC0-47AC-BE61-875059839528}
+	EndGlobalSection
+EndGlobal
