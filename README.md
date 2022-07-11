@@ -3,6 +3,9 @@
 ## C# coding using MyFraction Library
 
 ```C#
+
+using knumerics;
+
     MyFraction c3 = new MyFraction(3E200);
     MyFraction c2 = new MyFraction(2E200);
     MyFraction c1 = new MyFraction(1E200);
